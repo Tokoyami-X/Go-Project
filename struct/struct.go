@@ -2,16 +2,16 @@ package main
 
 import "fmt"
 
-type Contact struct {
+type Struct struct {
 	Name  string
 	Phone string
 }
 
-func (c *Contact) setName(name string) {
+func (c *Struct) setName(name string) {
 	c.Name = name
 }
 
-// func (c *Contact) setPhone(phone string) {
+// func (c *Struct) setPhone(phone string) {
 // 	c.Phone = phone
 // }
 
@@ -25,12 +25,12 @@ func main() {
 	fmt.Println("1、添加联系人 2、删除联系人 3、修改联系人 4、查询联系人 5、退出程序\n请输入你想使用的功能编号按Enter键确认：")
 	// 创建一个联系人切片，包含三个联系人元素
 	// 每个元素都是一个 Contact 结构体，包含 Name 和 Phone 字段
-	contacts := []Contact{
+	contacts := []Struct{
 		{"Alice", "123-456-7890"},   // 第一个联系人：Alice，电话号码：123-456-7890
 		{"Bob", "987-654-3210"},     // 第二个联系人：Bob，电话号码：987-654-3210
 		{"Charlie", "555-555-5555"}, // 第三个联系人：Charlie，电话号码：555-555-5555
 	}
-	contacts = append(contacts, Contact{"David", "111-111-1111"})
+	contacts = append(contacts, Struct{"David", "111-111-1111"})
 	// 遍历 contacts 切片，使用 for-range 循环
 	// 对于每个联系人 c，打印其姓名和电话号码
 	for i, c := range contacts {
