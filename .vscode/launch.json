@@ -6,6 +6,32 @@
     "configurations": [
         {
             
-        }    
+            "name": "Debug Hello",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/hello"
+        },
+        {
+            "name": "Debug Quote",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/quote"
+        },
+        {
+            "name": "Debug Struct",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/struct${cwd}"
+        },
+        {
+            "name": "Debug Study",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/study"
+        }
     ]
 }
