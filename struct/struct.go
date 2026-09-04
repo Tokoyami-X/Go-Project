@@ -1,6 +1,8 @@
-package main
+package structs
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Struct struct {
 	Name  string
@@ -21,7 +23,7 @@ func (c *Struct) setName(name string) {
 每个联系人包含姓名和电话号码两个属性
 程序会打印出所有联系人的姓名和电话号码
 */
-func main() {
+func Structs() {
 	fmt.Println("1、添加联系人 2、删除联系人 3、修改联系人 4、查询联系人 5、退出程序\n请输入你想使用的功能编号按Enter键确认：")
 	// 创建一个联系人切片，包含三个联系人元素
 	// 每个元素都是一个 Contact 结构体，包含 Name 和 Phone 字段

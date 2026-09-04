@@ -1,8 +1,8 @@
-package main
+package study
 
 import "fmt"
 
-func pointer() {
+func Pointer() {
 	a := 100
 	b := &a
 	fmt.Println(b)

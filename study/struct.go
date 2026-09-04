@@ -27,7 +27,7 @@
 
 // }
 
-package main
+package study
 
 import (
 	"errors"
