@@ -70,7 +70,10 @@ func SearchContacts() {
 func DeleteContacts(contacts []Contact, name string) {
 	// TODO: 实现删除联系人的功能
 	// 遍历 contacts 切片，查找与 name 匹配的联系人
+<<<<<<< HEAD
 	// 如果找到匹配的联系人，则将其从切片中删除
+=======
+>>>>>>> parent of 5c547be (Revert "删除联系人第二次提交")
 
 	for i, c := range contacts {
 		if c.Name == name {
