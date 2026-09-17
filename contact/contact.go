@@ -70,6 +70,8 @@ func SearchContacts() {
 func DeleteContacts(contacts []Contact, name string) {
 	// TODO: 实现删除联系人的功能
 	// 遍历 contacts 切片，查找与 name 匹配的联系人
+	// 如果找到匹配的联系人，则将其从切片中删除
+	// 如果没有找到匹配的联系人，则不做任何操作
 
 	for i, c := range contacts {
 		if c.Name == name {
