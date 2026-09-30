@@ -5,12 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            
             "name": "Debug Main",
             "type": "go",
             "request": "launch",
             "mode": "auto",
             "program": "${workspaceFolder}"
         },
+        {
+            "name": "Debug Slice",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}\\study\\main.go"
+        }
     ]
 }

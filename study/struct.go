@@ -18,7 +18,7 @@
 // 	p.Name = name
 // 	return nil
 // }
-// func showStruct() {
+// func ShowStruct() {
 // 	p := &Person{"张三", 18}
 // 	p.setName("李四")
 // 	// fmt.Println("%p\n", p)
@@ -27,7 +27,7 @@
 
 // }
 
-package study
+package main
 
 import (
 	"errors"
@@ -51,7 +51,7 @@ func (p *Person) setName(name string) error {
 	return nil
 }
 
-func showStruct() {
+func ShowStruct() {
 	// 创建对象
 	p := &Person{"张三", 18}
 

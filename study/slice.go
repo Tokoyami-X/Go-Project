@@ -1,9 +1,9 @@
-package study
+package main
 
 import "fmt"
 
-// slice 函数演示了Go语言中切片的基本操作和append函数的使用
-func slice() {
+// Slice 函数演示了Go语言中切片的基本操作和append函数的使用
+func Slice() {
 	// 创建一个包含1, 2, 3的整型切片slice1
 	slice1 := []int{1, 2, 3}
 	/*
